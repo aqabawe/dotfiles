@@ -40,6 +40,7 @@ Plugin 'tComment'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'github/copilot.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -286,3 +287,4 @@ nnoremap <leader>a :Ack<space>
 nnoremap <leader>sl :Lines<CR>
 nnoremap <leader>sb :BLines<CR>
 nnoremap <leader>b :Buffers<CR>
+Plugin 'numkil/ag.nvim'
